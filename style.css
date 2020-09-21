@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("./Bubbles.jpg");
     background-repeat: no-repeat;
-    background-size: 1600px 1000px;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
   }
@@ -36,7 +36,7 @@ body {
     font-size: 20px;
     border-radius: 25px;
     background: transparent;
-    padding: 80px;
+    padding: 20px;
     text-align: center;
     border: 2px solid white;
   }
@@ -53,6 +53,7 @@ body {
     justify-content: flex-end;
     width: 100%;
     padding-right: 2%;
+    padding-top: 10%;
   }
   /* This is an ID selector */
   #profile-pic {
