@@ -28,23 +28,23 @@ body {
 
   /* This is an element within an element selector */ 
   nav > a {
-    margin: 2% 1% 3%;
-    height: 18%;
-    width: 20%;
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    margin: 3% 1% 3%;
+    height: 14%;
+    width: 28%;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
     border-radius: 25px;
     background: transparent;
     padding: 20px;
-    text-align: center;
-    border: 2px solid white;
+    text-align: left;
+    border: 2px solid rgb(255, 255, 255);
   }
 
   .has-border {
-    border-radius: 25px;
-    border: 2px solid #0795C3;
-    background-color:rgb(0, 195, 255) ;
+    border-radius: 40px;
+    border: 5px solid #de66f09a;
+    background: transparent;
     padding: 20px;
   }
 
@@ -53,21 +53,22 @@ body {
     justify-content: flex-end;
     width: 100%;
     padding-right: 2%;
-    padding-top: 10%;
+    padding-top: 2%;
   }
   /* This is an ID selector */
   #profile-pic {
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
-    margin: 15% auto;
+    margin: 5% auto;
     grid-column: 2/3;
   }
 
   h1 {
-    color:rgb(0, 195, 255);
+    color:rgb(255, 255, 255);
     grid-column: 2/3;
     margin: 3% auto;
+    font-family: 'Courier New'
   }
 
   h2 {
