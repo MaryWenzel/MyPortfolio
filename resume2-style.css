@@ -1,0 +1,205 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  max-width: 576pt;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  background-color: #f9fffb;
+  font-family: "Courier New", Courier, monospace;
+  grid-template-areas:
+    "headshot  name"
+    "job  quote"
+    "contact  expertise"
+    "contact  pro-hist"
+    "contact  writer-hist"
+    "contact  edu-history";
+  grid-template-columns: 170pt 391pt;
+  grid-template-rows: 200px 150px 250px 250px 200px 300px;
+  grid-column-gap: 15pt;
+  /* justify-items: center; */
+  align-items: center;
+}
+
+.headshot {
+  grid-area: headshot;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  grid-area: name;
+}
+
+.job-title {
+  grid-area: job;
+  text-align: left;
+  width: 90%;
+  height: auto;
+  margin-left: 40px;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.quote {
+  grid-area: quote;
+  color: #27095b;
+  width: 95%;
+  text-align: left;
+  /* margin-inline-start: 5%; */
+  font-size: 12pt;
+}
+
+.info-box {
+  grid-area: contact;
+  background-image: linear-gradient(#604be1, #4690d7);
+  font-size: 15px;
+  text-align: center;
+  display: grid;
+  grid-template-areas:
+    "contact-info"
+    "info-line"
+    "phone"
+    "map"
+    "mail"
+    "link";
+  grid-template-columns: 95%;
+  grid-template-rows: 110pt 40pt 80pt repeat(2, 120pt) repeat(2, 100pt);
+}
+
+.expertise {
+  grid-area: expertise;
+  font-size: 11pt;
+}
+
+.pro-history {
+  grid-area: pro-hist;
+  line-height: 1.3em;
+}
+
+.writer-history {
+  grid-area: writer-hist;
+  line-height: 1.3em;
+}
+
+.edu-history {
+  grid-area: edu-history;
+  line-height: 1.3em;
+}
+
+.image {
+  height: 140px;
+  width: 140px;
+  box-shadow: -15px 15px 0px 1px white, -15px 15px 0px 6px rgb(170, 174, 177);
+}
+
+h1 {
+  font-size: 60pt;
+  letter-spacing: 0.1em;
+  color: #27095b;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  color: #27095b;
+  font-size: 17pt;
+  letter-spacing: 0.1em;
+}
+
+h4 {
+  font-size: 15pt;
+  color: #939895;
+}
+
+h5 {
+  color: #9e9f9d;
+}
+.contact {
+  color: white;
+  grid-area: contact-info;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.info-line {
+  grid-area: info-line;
+}
+
+.phone-icon {
+  grid-area: phone;
+  color: white;
+  line-height: 2em;
+  font-size: 8pt;
+}
+
+.map-icon {
+  grid-area: map;
+  color: white;
+  line-height: 2em;
+  font-size: 8pt;
+}
+
+.mail-icon {
+  grid-area: mail;
+  color: white;
+  line-height: 2em;
+  font-size: 8pt;
+}
+
+.in-icon {
+  grid-area: link;
+  color: white;
+  line-height: 2em;
+  font-size: 8pt;
+}
+
+li {
+  color: #9e9f9d;
+  font-size: 11pt;
+}
+
+.article {
+  color: #939895;
+}
+
+.fa-phone-square-alt {
+  font-size: 2.5em;
+}
+
+.fa-map-marker-alt {
+  font-size: 2.5em;
+}
+
+.fa-envelope {
+  font-size: 2.5em;
+}
+
+.fa-linkedin {
+  font-size: 2.5em;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+hr {
+  width: 85%;
+  border-style: solid;
+  background-color: black;
+}
+
+.name-line {
+  width: 100%;
+  height: 1pt;
+}
