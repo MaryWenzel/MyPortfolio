@@ -1,103 +1,111 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("./Bubbles.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-  }
-  /* What kind of selector is this? */
-  .logo {
-    width: 180px;
-    height: 180px;
-    margin: 10% 2%;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./Bubbles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95vw;
+  height: 100vh;
+}
+/* What kind of selector is this? */
+.logo {
+  width: 120px;
+  height: 120px;
+  margin: 10% 2%;
+}
 
-  header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
-  }
+header {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+}
 
-  main {
-    height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-  }
+main {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
 
-  /* This is an element within an element selector */ 
-  nav > a {
-    margin: 3% 1% 3%;
-    height: 14%;
-    width: 28%;
-    color: rgb(255, 255, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 23px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px;
-    text-align: left;
-    border: 2px solid rgb(255, 255, 255);
-  }
+/* This is an element within an element selector */
+nav > a {
+  margin: 3% 1% 3%;
+  height: 14%;
+  width: 28%;
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 23px;
+  border-radius: 25px;
+  background: transparent;
+  padding: 20px;
+  text-align: left;
+  border: 2px solid rgb(255, 255, 255);
+}
 
-  .has-border {
-    border-radius: 40px;
-    border: 5px solid #de66f09a;
-    background: transparent;
-    padding: 20px;
-  }
+.has-border {
+  border-radius: 40px;
+  border: 5px solid #de66f09a;
+  background: transparent;
+  padding: 20px;
+}
 
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding-right: 2%;
-    padding-top: 2%;
-  }
-  /* This is an ID selector */
-  #profile-pic {
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    margin: 5% auto;
-    grid-column: 2/3;
-  }
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+/* This is an ID selector */
+#profile-pic {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  margin: 5% auto;
+  grid-column: 2/3;
+}
 
-  h1 {
-    color:rgb(255, 255, 255);
-    grid-column: 2/3;
-    margin: 3% auto;
-    font-family: 'Courier New'
-  }
+h1 {
+  color: rgb(255, 255, 255);
+  grid-column: 2/3;
+  margin: 3% auto;
+  font-family: "Courier New";
+}
 
-  h2 {
-    color:rgb(0, 195, 255);
-    grid-column: 2/3;
-    margin: 3% auto;
-    font-style: italic;
-  }
+h2 {
+  color: rgb(0, 195, 255);
+  grid-column: 2/3;
+  margin: 3% auto;
+  font-style: italic;
+}
 
-  .small-text {
-    grid-column: 2/3;
-    color: white;
-    font-size: 10px;
-    margin: 3% auto;
-  }
+.small-text {
+  grid-column: 2/3;
+  color: white;
+  font-size: 10px;
+  margin: 3% auto;
+}
 
-  button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px;
-    padding-bottom: 5%;
-    text-align: center;
-    color:rgb(0, 195, 255);
-    letter-spacing: 16px;
-    font-style: italic;
-  }
+button {
+  grid-column: 2/3;
+  margin: 3% auto;
+  width: 70%;
+  height: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 25px;
+  background: transparent;
+  padding: 20px;
+  padding-bottom: 5%;
+  text-align: center;
+  color: rgb(0, 195, 255);
+  letter-spacing: 16px;
+  font-style: italic;
+}
+
+/* Contact Page Style */
+form {
+  height: 750px;
+  display: grid;
+  grid-template-columns: 0.6fr 1.8fr 0.6fr;
+  grid-template-rows: 0.5fr 0.3fr 2.2fr;
+}

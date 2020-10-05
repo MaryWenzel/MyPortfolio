@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./contact.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png"
+        class="logo"
+        alt="austin coding academy logo"
+      />
+      <nav>
+        <a class="has-border" href="contact.html">Contact Me</a>
+        <a class="has-border" href="resume2.html">Resume</a>
+        <a class="has-border">About Me</a>
+        <a class="has-border">My Blog</a>
+      </nav>
+    </header>
+    <main class="info-container">
+      <form action="results.html" method="GET" enctype="multipart/form-data">
+        <div class="info">
+          <div class="name">
+            <label for="name"></label>
+            <input
+              class="input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+            />
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail Address"
+            />
+          </div>
+          <div class="age">
+            <label for="age"></label>
+            <input
+              class="input"
+              type="number"
+              placeholder="Age"
+              name="age"
+              id="age"
+              min="1"
+              max="200"
+              step="5"
+            />
+          </div>
+        </div>
+        <div class="checkboxes">
+          <h1>Leave your info if you would like to be contacted.</h1>
+          <h2>How did you hear about me?</h2>
+          <div class="class">
+            <input type="checkbox" name="classmate" id="classmate" />
+            <label for="classmate">Classmate</label>
+          </div>
+          <div class="resume">
+            <input type="checkbox" name="resume" id="resume" />
+            <label for="resume">Resume Submission</label>
+          </div>
+          <div class="link">
+            <input type="checkbox" name="linkedin" id="linkedin" />
+            <label for="linkedin">LinkedIn</label>
+          </div>
+          <div class="rec">
+            <input type="checkbox" name="recommend" id="recommend" />
+            <label for="recommend">Coding Academy Rec.</label>
+          </div>
+        </div>
+        <div class="question">
+          <div>
+            <h3>Would you like to me contacted by me?</h3>
+            <div>
+              <input type="radio" name="contact" id="yes" value="yes" />
+              <label for="yes">Yes</label>
+            </div>
+            <div>
+              <input type="radio" name="contact" id="no" value="no" />
+              <label for="no">No</label>
+            </div>
+            <br />
+            <div class="birth">
+              <label for="date"
+                >Enter your birthday to receive a special birthday
+                message!</label
+              >
+              <br />
+              <input type="date" name="date" id="date" min="2019-1-1" />
+            </div>
+          </div>
+          <br />
+          <div class="comment">
+            <label for="bio">Comments or Questions can be put below</label>
+            <br />
+            <textarea
+              name="bio"
+              id="bio"
+              cols="30"
+              rows="10"
+              placeholder="Don't be shy!"
+            ></textarea>
+          </div>
+        </div>
+      </form>
+      <!-- <script src="scripts.js"></script> -->
+    </main>
+  </body>
+</html>
