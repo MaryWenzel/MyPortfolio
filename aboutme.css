@@ -28,7 +28,7 @@ hr {
 
 /* My Name Is Mary */
 h2 {
-    font-size: 40px;
+  font-size: 40px;
   margin-left: 20px;
 }
 
@@ -62,6 +62,18 @@ h2 {
   border-style: double;
   border-width: 10px;
   border-color: #de66f09a;
+  position: relative;
+}
+
+.create-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Righteous", cursive;
+  font-size: 100px;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 .exp {
@@ -78,6 +90,18 @@ h2 {
   border-style: double;
   border-width: 10px;
   border-color: #de66f09a;
+  position: relative;
+}
+
+.build-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Righteous", cursive;
+  font-size: 100px;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 .sec1 {
@@ -176,91 +200,74 @@ nav {
 }
 
 /* Tablet Mode */
-@media screen and (max-width: 1024px){
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-        "dress about"
-        "hobby create"
-        "code exp";
+@media screen and (max-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "dress about"
+      "hobby create"
+      "code exp";
+  }
 
-    }
+  .dress {
+    grid-area: dress;
+  }
 
-    .dress {
-        grid-area: dress;
-        
-      }
-      
-    .about {
-        grid-area: about;
-       
-      
-    .hobby {
-        grid-area: hobby;
-        
-      }
-      
-    .create {
-        grid-area: create;
-  
-      }
-      
-    .exp {
-        grid-area: exp;
-        
-      }
-      
-    .code {
-        grid-area: code;
-        
-      }
-      
+  .about {
+    grid-area: about;
+  }
+  .hobby {
+    grid-area: hobby;
+  }
+
+  .create {
+    grid-area: create;
+  }
+
+  .exp {
+    grid-area: exp;
+  }
+
+  .code {
+    grid-area: code;
+  }
 }
 
 /* Phone Mode */
-@media screen and (max-width: 480px){
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "dress"
-        "about"
-        "create"
-        "hobby"
-        "code"
-        "exp";
+@media screen and (max-width: 480px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "dress"
+      "about"
+      "create"
+      "hobby"
+      "code"
+      "exp";
+  }
 
-    }
+  .dress {
+    grid-area: dress;
+  }
 
-    .dress {
-        grid-area: dress;
-        
-      }
-      
-    .about {
-        grid-area: about;
-       
-      
-    .hobby {
-        grid-area: hobby;
-        
-      }
-      
-    .create {
-        grid-area: create;
-  
-      }
-      
-    .exp {
-        grid-area: exp;
-        
-      }
-      
-    .code {
-        grid-area: code;
-        
-      }
-      
-    
+  .about {
+    grid-area: about;
+  }
+  .hobby {
+    grid-area: hobby;
+  }
+
+  .create {
+    grid-area: create;
+  }
+
+  .exp {
+    grid-area: exp;
+  }
+
+  .code {
+    grid-area: code;
+  }
 }
