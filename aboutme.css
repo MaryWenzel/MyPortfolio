@@ -28,7 +28,8 @@ hr {
 
 /* My Name Is Mary */
 h2 {
-  margin-left: 10px;
+    font-size: 40px;
+  margin-left: 20px;
 }
 
 .dress {
@@ -80,10 +81,10 @@ h2 {
 }
 
 .sec1 {
-  font-size: 22px;
+  font-size: 35px;
   word-wrap: break-word;
   text-align: left;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 35px;
   /* margin-bottom: 20px; */
   line-height: 1.5em;
@@ -215,7 +216,6 @@ nav {
         
       }
       
-    
 }
 
 /* Phone Mode */
