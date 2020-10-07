@@ -111,6 +111,7 @@ h1 {
   color: #27095b;
   width: 100%;
   transition: width ease-in 2s;
+  cursor: pointer;
 }
 
 h2 {
