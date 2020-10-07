@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="resume2-style.css" />
     <link
       rel="stylesheet"
@@ -18,11 +22,7 @@
         <img class="image" src="./voltaire.jpg" alt="Headshot Of Voltaire" />
       </div>
       <div class="name">
-        <h1>
-          AURELIO
-          <br />
-          VOLTAIRE
-        </h1>
+        <h1 id="name-text" onclick="fadeName()">AURELIO VOLTAIRE</h1>
         <hr class="name-line" />
       </div>
       <div class="job-title">
@@ -46,9 +46,9 @@
           Info
         </h3>
         <div class="phone-icon">
-          <i class="fas fa-phone-square-alt"></i>
+          <i class="fas fa-phone-square-alt" onclick="numberShow()"></i>
           <br />
-          <span>Please Don't </span>
+          <span id="please-dont"></span>
         </div>
         <div class="map-icon">
           <i class="fas fa-map-marker-alt"></i>
@@ -128,5 +128,6 @@
         </ul>
       </div>
     </div>
+    <script src="resume.js"></script>
   </body>
 </html>
